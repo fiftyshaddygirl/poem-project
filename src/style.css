@@ -25,6 +25,10 @@ h1 {
   margin: 20px 0 10px 0;
 }
 
+form {
+  text-align: center;
+}
+
 .topic-input {
   background-color: rgba(191, 206, 240, 0.1);
   padding: 10px 20px;
