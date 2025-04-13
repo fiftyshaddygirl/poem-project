@@ -4,47 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          autocomplete="off"
-          required
-        />
-        <input type="submit" value="🔎" />
-      </form>
-      <div>
-        A crimson blush, a velvet grace,
-        <br />
-        The rose, a smile upon its face.
-        <br />
-        With thorns that prick, a gentle scent,
-        <br />
-        A symbol of love, divinely sent.
-      </div>
-    </main>
-    <footer>
-      This project is coded by
-      <a href="https://github.com/fiftyshaddygirl" target="_blank">
-        Cynthia Kazan</a
-      >
-      and its open sourced on
-      <a href="https://github.com/fiftyshaddygirl/poem-project" target="_blank">
-        Github</a
-      >
-      and hosted on
-      <a href="https://aipoemgenerator-project.netlify.app/" target="_blank">
-        Netlify</a
-      >
-    </footer>
+    <div class="template">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            autocomplete="off"
+            required
+            class="topic-input"
+          />
+          <input type="submit" value="🔎" class="search-button" />
+        </form>
+        <div class="poem">
+          A crimson blush, a velvet grace,
+          <br />
+          The rose, a smile upon its face.
+          <br />
+          With thorns that prick, a gentle scent,
+          <br />
+          A symbol of love, divinely sent.
+        </div>
+      </main>
+      <footer>
+        This project is coded by
+        <a href="https://github.com/fiftyshaddygirl" target="_blank">
+          Cynthia Kazan</a
+        >
+        and its open sourced on
+        <a
+          href="https://github.com/fiftyshaddygirl/poem-project"
+          target="_blank"
+        >
+          Github</a
+        >
+        and hosted on
+        <a href="https://aipoemgenerator-project.netlify.app/" target="_blank">
+          Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
