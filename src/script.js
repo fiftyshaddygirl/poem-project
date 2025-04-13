@@ -23,7 +23,6 @@ function generatePoem(event) {
   let instruction = document.querySelector("#topic-input");
   let poem = document.querySelector("#poem");
   poem.innerHTML = `⏳ Generating poem about ${instruction.value}. Please wait . . .`;
-
   let apiKey = "940836f57095o1a5bt3c042d91bb08f9";
   let context =
     "You are an expert in romance poetry and love to write poem. please generate 4 line poem in HTML basic format and separate each sentance with <br> and make sure to follow user instruction";
